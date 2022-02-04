@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Employee Addressbook Details</h1>
+    <p th:text="'id: ' + ${addressbook.id}" />
+    <p th:text="'Email Address: ' + ${addressbook.emailaddress}" />
+    <p th:text="'First Name: ' + ${addressbook.firstname}" />
+    <p th:text="'Last Name: ' + ${addressbook.lastname}" />
+    <p th:text="'Phone number: ' + ${addressbook.phonenumber}" />
+</body>
+</html>
